@@ -1,5 +1,9 @@
 # TalentMind AI — Multi-Agent AI Resume Intelligence Platform
 
+<p align="center">
+  <img src="docs/images/dashboard.png" alt="TalentMind Dashboard" width="100%">
+</p>
+
 TalentMind AI is a production-grade, privacy-focused HR-Tech SaaS solution that automates resume screening, ATS scoring, candidate ranking, and recruiter briefings using a multi-agent AI architecture.
 
 The entire application runs **locally** using **Ollama + Llama 3**, and does not require any paid API keys or cloud connections.
@@ -19,6 +23,12 @@ TalentMind AI is orchestrated by a central **Coordinator Agent** that sequences 
 7. **Hiring Decision Agent (Rule-based + synthesis)**: Formulates final recommendations (Strong Hire / Hire / Consider / Reject) and hiring panel briefings.
 8. **Ranking Agent (Heuristic)**: Computes a multi-factor weighted leaderboard (ATS 40% + Skill 25% + Experience 20% + Education 10% + Certifications 5%) to sort pools of candidates.
 9. **Dynamic Copilot Chat Agent (LLM)**: A real-time, interactive assistant that allows recruiters to ask dynamic questions about a specific candidate, synthesizing the candidate's parsed data, ATS score, strengths, and risks to provide immediate, context-aware answers.
+
+<p align="center">
+  <img src="docs/images/copilot.png" alt="Recruiter Copilot Chat" width="48%">
+  &nbsp;
+  <img src="docs/images/upload.png" alt="AI Agent Resume Processing" width="48%">
+</p>
 
 ---
 
